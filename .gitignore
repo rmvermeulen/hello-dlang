@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/hello-dlang
+hello-dlang.so
+hello-dlang.dylib
+hello-dlang.dll
+hello-dlang.a
+hello-dlang.lib
+hello-dlang-test-*
+*.exe
+*.o
+*.obj
+*.lst

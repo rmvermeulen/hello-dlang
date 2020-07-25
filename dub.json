@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"Rasmus Vermeulen"
+	],
+	"copyright": "Copyright © 2020, Rasmus Vermeulen",
+	"description": "A minimal D application.",
+	"license": "MIT",
+	"name": "hello-dlang"
+}
