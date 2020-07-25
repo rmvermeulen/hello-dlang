@@ -1,16 +1,22 @@
 {
 	"fileVersion": 1,
 	"versions": {
+		"bolts": "1.3.1",
 		"botan": "1.12.18",
 		"botan-math": "1.0.3",
+		"ddash": "0.26.0",
 		"diet-ng": "1.7.2",
 		"eventcore": "0.9.6",
+		"expected": "0.2.3",
 		"libasync": "0.8.6",
 		"libevent": "2.0.2+2.0.16",
 		"memutils": "1.0.4",
 		"mir-linux-kernel": "1.0.1",
 		"openssl": "1.1.6+1.0.1g",
+		"optional": "1.0.0",
+		"silly": "1.0.2",
 		"stdx-allocator": "2.77.5",
+		"sumtype": "0.9.4",
 		"taggedalgebraic": "0.11.16",
 		"vibe-core": "1.9.2",
 		"vibe-d": "0.8.6"

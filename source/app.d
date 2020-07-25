@@ -5,15 +5,20 @@ void index(HTTPServerRequest req, HTTPServerResponse res)
 	res.render!("index.dt", req);
 }
 
-void main()
-{
-	auto router = new URLRouter;
-	router.get("/", &index);
-	
-	auto settings = new HTTPServerSettings;
-	settings.port = 8080;
-	
-	listenHTTP(settings, router);
-	
-	runApplication();
+version(unittest) {
+	// Do nothing here, dub takes care of that
+} else {
+	void main()
+	{
+		auto router = new URLRouter;
+		router.get("/", &index);
+		
+		auto settings = new HTTPServerSettings;
+		settings.port = 8080;
+		
+		listenHTTP(settings, router);
+		
+		runApplication();
+	}
 }
+
