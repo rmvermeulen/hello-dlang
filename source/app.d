@@ -1,6 +1,16 @@
 import std.stdio;
+// import vibe.vibe;
+
+class Greeter {
+	auto getMessage() {
+		return "This is the message!";
+	}
+}
+
 
 void main()
 {
-	writeln("Edit source/app.d to start your project.");
+	Greeter g;
+	auto m = g.getMessage();
+	writeln(m);
 }
