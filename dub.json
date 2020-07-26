@@ -2,20 +2,25 @@
 	"authors": [
 		"Rasmus Vermeulen"
 	],
-	"copyright": "Copyright © 2020, Rasmus Vermeulen",
-	"dependencies": {
-		"ddash": "~>0.26.0",
-		"expected": "~>0.2.3",
-		"optional": "~>1.0.0",
-		"silly": "~>1.0.2",
-		"vibe-d": "~>0.8.6"
-	},
-	"description": "A minimal D application.",
-	"license": "MIT",
-	"name": "hello-dlang",
 	"configurations": [
+		{
+			"name": "development",
+			"targetType": "executable"
+		},
 		{
 			"name": "unittest"
 		}
-	]
+	],
+	"copyright": "Copyright © 2020, Rasmus Vermeulen",
+	"dependencies": {
+		"silly": "~>1.0.2",
+		"vibe-d": "~>0.8.6",
+		"vibe-d:tls": "*"
+	},
+	"subConfigurations": {
+		"vibe-d:tls": "openssl-1.1"
+	},
+	"description": "A minimal D application.",
+	"license": "MIT",
+	"name": "hello-dlang"
 }

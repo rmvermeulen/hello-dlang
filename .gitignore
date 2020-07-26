@@ -11,5 +11,7 @@ hello-dlang.lib
 hello-dlang-test-*
 *.exe
 *.o
+*.a
+*.dll
 *.obj
 *.lst
